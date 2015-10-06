@@ -17,7 +17,6 @@ noremap gp :w <cr> :!python % <cr>
 command Jade :!jade %
 command Browserify :!Browserify % -o bundle.js
 " Pim things
-let g:pim_remote_url = 'eat1-nertzgw01.grid.linkedin.com'
 let g:pim_kerberos_bin_dir = '/opt/likewise/bin/'
 let g:pim_pig_command = '/export/apps/pig/latest/bin/pig'
 
