@@ -26,6 +26,11 @@ augroup extra
   autocmd BufRead,BufNewFile *.jade set filetype=jade
 augroup END
 
+" source extra vimrc if it exists
+let s:extra_vimrc = $HOME . '/.extra/vimrc'
+if filereadable(s:extra_vimrc)
+  execute 'source ' . s:extra_vimrc
+endif
 
 filetype plugin on                                                          " reenable per filetype loading
 syntax enable                                                               " activate syntax highlighting
