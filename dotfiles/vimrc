@@ -15,7 +15,9 @@ set ls=2
 noremap gc :!rst2html.py --stylesheet-dirs=~/.config/docutils/css/ --stylesheet-path=base.css,f.css % %:r.html <cr><cr>
 noremap gp :w <cr> :!python % <cr>
 command Jade :!jade %
-command Browserify :!Browserify % -o bundle.js
+command Mocha :!mocha --ui tdd
+command Py :!python % -o 
+command Browserify :!Browserify % -o %:p:h/bundle.js
 " Pim things
 let g:pim_kerberos_bin_dir = '/opt/likewise/bin/'
 let g:pim_pig_command = '/export/apps/pig/latest/bin/pig'
