@@ -3,6 +3,7 @@ set history=1000
 set hidden
 set shell=/usr/bin/env\ bash                                                " load .bashrc when starting shell from Vim
 set tabstop=2
+set smartindent
 set shiftwidth=2
 set softtabstop=2
 set expandtab
