@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/nmirian/.vim/bundle'
+let g:netrw_dirhist_2='/Users/nmirian/workspace/git/dotfiles/vim/bundle'
+let g:netrw_dirhist_3='/Users/nmirian/workspace/git/dotfiles/vim'
+let g:netrw_dirhist_4='/Users/nmirian/w2/avsc/jade'
+let g:netrw_dirhist_5='/Users/nmirian/workspace/spectrum/miscellaneous-spectrum/src/client/jade'
+let g:netrw_dirhist_6='/Users/nmirian/w2/avsc/jade'
+let g:netrw_dirhist_7='/Users/nmirian/workspace/git/dotfiles/vim/autoload'
+let g:netrw_dirhist_8='/Users/nmirian/workspace/git/dotfiles/vim/bundle/ag.vim'
